@@ -16,10 +16,10 @@ NUnit
    ```
 
 ## Framework Design
-Features folder for test cases with steps using BDD Gherkin syntax
-Step Definitions folder for test binded to features and the attributes use `using Reqnroll
-FluentAssertions for readable assertions
-Response time measured using Stopwatch
-StoredImage Folders for Image comparison and validation
-Support folder stored reusable helpers
-Preferred config is `reqnroll.json` (schema included).
+- Features folder for test cases with steps using BDD Gherkin syntax
+- Step Definitions folder for test binded to features and the attributes use `using Reqnroll
+- FluentAssertions for readable assertions
+- Response time measured using Stopwatch
+- StoredImage Folders for Image comparison and validation
+- Support folder stored reusable helpers
+- Preferred config is `reqnroll.json` (schema included).
