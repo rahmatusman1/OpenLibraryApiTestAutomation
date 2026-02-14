@@ -1,6 +1,6 @@
 # Open Library API Automation Framework
 
-# Framework Dependencies
+# Framework Dependencies Used
 .NET 8
 Reqnroll (BDD)
 RestSharp
@@ -8,9 +8,15 @@ FluentAssertions
 NUnit
 
 
-## Run
-1. Open `ApiTests.sln` in Visual Studio.
-2. Run from Test Explorer or CLI:
+## Test SetUp 
+1. Installed Visual Studio or Open existing if already installed.
+2. Create a folder on your local 
+3. Clone the code from the repository into your created local folder 
+4. Go to the File directory 
+5. Open `ApiTests.sln` in Visual Studio.
+
+## Test Run
+- Run from Test Explorer or CLI:
    ```bash
    dotnet test 
    ```
